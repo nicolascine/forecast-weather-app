@@ -3,9 +3,7 @@
     "version": "1.0.0",
     "description": "Weather data of Santiago (CL), Zurich (CH), Auckland (NZ), Sydney (AU), Londres (UK), Georgia (USA)",
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "private": true,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/nicolascine/forecast-weather-app.git"
@@ -25,6 +23,7 @@
     "homepage": "https://github.com/nicolascine/forecast-weather-app#readme",
     "dependencies": {
         "express": "4.14.0",
-        "redis": "2.6.3"
+        "redis": "2.6.3",
+        "mobx": "2.6.4"
     }
 }
